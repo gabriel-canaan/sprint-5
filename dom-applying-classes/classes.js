@@ -33,5 +33,5 @@ three.classList.add('black')
 // CREATE FUNCTION makeVisible HERE
 function makeVisible () {
 var makeVisible = document.getElementByClass[0]('makeVisible')
-makeVisible.classList.add('Visible')
+makeVisible.classList.add('visible')
 }

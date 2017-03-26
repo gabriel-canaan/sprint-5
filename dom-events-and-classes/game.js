@@ -35,7 +35,15 @@ function hide (evt) {
   evt.target.classList.toggle('invisible')
   updateCounts()
 }
-
+// sheryls 'borrowed code here. Ledgend'
+function resetClass (evt){
+    if (evt.target.classList.contains('green')) {
+      evt.target.classList.remove('green');
+    } else if (evt.target.classList.contains('blue')){
+      evt.target.classList.remove('blue');
+    } else if (evt.target.classList.contains('invisible')){
+      evt.target.classList.remove('invisible');
+    }
 
 
 function updateCounts () {

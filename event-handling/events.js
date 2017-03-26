@@ -59,5 +59,7 @@ function makeOrange (evt) {
   evt.target.style.backgroundColor = 'orange'
 }
 function makeBlack (evt) {
++-0987654321`+
+.0 bvc.+dsaQW876543`
   evt.target.style.backgroundColor = 'black'
 }
